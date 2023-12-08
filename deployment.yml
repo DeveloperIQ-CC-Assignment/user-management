@@ -16,7 +16,7 @@ metadata:
     spec:
       containers:
         -name: user-management-service
-        image: gcr.io/PROJECT_ID/IMAGE:TAG #Replace with your DockerHub Image & Tag
+        image: gcr.io/cc-assignment-01-407011/user-management-service:prod #Replace with your DockerHub Image & Tag
         imagePullPolicy: Always
         ports:
           -containerPort: 8080
