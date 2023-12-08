@@ -8,7 +8,7 @@ metadata:
     replicas: 1
     selector:
       matchLabels:
-        app:user-management-service
+        app: user-management-service
   template:
     metadata:
       labels:
