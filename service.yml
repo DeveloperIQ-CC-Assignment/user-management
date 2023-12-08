@@ -5,5 +5,7 @@ metadata:
 spec:
   selector:
     app: user-management-service
-    port: 80
-    targetPort: 8080
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8080
