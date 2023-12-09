@@ -1,1 +1,12 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api/v1/user-management-service
 
+github:
+  user-detail-url: https://api.github.com/repos/EthicalML/awesome-production-machine-learning/stats/issues
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://ravini_wijesiri:19064246Tt@cluster0.jzqxbv1.mongodb.net/developer_iq_tracker
