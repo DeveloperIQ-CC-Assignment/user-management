@@ -33,6 +33,12 @@ public class GitHubUserImpl implements  GitHubUserService{
 
         return gitHubUsers;
     }
+
+    @Override
+    public List<GitHubUser> getAllUsers() {
+        return this.gitHubUserRepository.findAll();
+    }
+
     private GitHubUser generateGitHubUserObject(GitHubUserDto gitHubUserDto) {
         return GitHubUser.builder()
                 .gitHubId(gitHubUserDto.getId())

@@ -6,4 +6,6 @@ import java.util.List;
 
 public interface GitHubUserService {
     List<GitHubUser> getGitHubUsers();
+    List<GitHubUser> getAllUsers();
 }
+
