@@ -19,7 +19,7 @@ spec:
           image: gcr.io/cc-assignment-01-407011/user-management-service:prod
           imagePullPolicy: Always
           ports:
-            - containerPort: 9091
+            - containerPort: 8080
           resources:
             requests:
               cpu: "200m"
